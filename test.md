@@ -72,7 +72,7 @@ plot(lowVariance$sd, ylab = "variance")
 ```
 
 
-![](image1.png?raw=true)
+![](./image1.png?raw=true)
 
 
 As a final strategy, the findCorrelation() function in the caret package was run against the remaining predictors. It returned two predictors which were highly correlated to the rest and could be eliminated. 
