@@ -71,8 +71,8 @@ The second process for reducing predictors was to run a stats package (the descr
 plot(lowVariance$sd, ylab = "variance")
 ```
 
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
 
+![](image1.png?raw=true)
 
 
 As a final strategy, the findCorrelation() function in the caret package was run against the remaining predictors. It returned two predictors which were highly correlated to the rest and could be eliminated. 
